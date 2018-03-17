@@ -1,13 +1,13 @@
 function theBeatlesPlay(musicians,instruments ){
 
-  var musicstring=()
+  var emptyarray=[]
 
   for (var i=0;i<musicians.length;i++){
 
-      musicstring[i]=(musicians[i]+ " plays " +instruments[i]);
+      emptyarray[i]=(musicians[i]+ " plays " +instruments[i]);
     }
 
-    return musicstring
+    return emptyarray
 
 }
 
@@ -26,20 +26,16 @@ function johnLennonFacts(facts){
   arrayfacts[i]=facts[i]+"!!!"
   i++
   }
-
   return arrayfacts
 
 }
 
 
 function iLoveTheBeatles (number){
-  var beatles=[]
-
-
-      do {
-        beatles.push("I love the Beatles!")
-        number++
-      } while (number<15 );
-
-  return beatles
+  var ihatethebeatles=[]
+  do {
+  ihatethebeatles.push("I love the Beatles!")
+  number++
+  } while (number<15 );
+  return ihatethebeatles
 }
